@@ -1,6 +1,6 @@
 {
   "name": "@luisbytes/capacitor-firebase-installations",
-  "version": "0.0.1",
+  "version": "6.0.0",
   "description": "Firebase Installations",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

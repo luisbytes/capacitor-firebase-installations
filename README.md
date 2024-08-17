@@ -1,6 +1,6 @@
 # @luisbytes/capacitor-firebase-installations
 
-Firebase Installations
+Firebase Installations only for Android (For now)
 
 ## Install
 
@@ -13,24 +13,20 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`getId()`](#getid)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### getId()
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+getId() => Promise<{ id: string; }>
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+**Returns:** <code>Promise&lt;{ id: string; }&gt;</code>
 
 --------------------
 

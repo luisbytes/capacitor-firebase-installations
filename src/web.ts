@@ -6,8 +6,7 @@ export class FirebaseInstallationsWeb
   extends WebPlugin
   implements FirebaseInstallationsPlugin
 {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async getId(): Promise<{ id: string }> {
+    throw this.unimplemented('Not implemented on web.');
   }
 }
