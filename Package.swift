@@ -10,14 +10,16 @@ let package = Package(
             targets: ["FirebaseInstallationsPlugin"])
     ],
     dependencies: [
-        .package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", branch: "main")
+        .package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", branch: "main"),
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", branch: "main")
     ],
     targets: [
         .target(
             name: "FirebaseInstallationsPlugin",
             dependencies: [
                 .product(name: "Capacitor", package: "capacitor-swift-pm"),
-                .product(name: "Cordova", package: "capacitor-swift-pm")
+                .product(name: "Cordova", package: "capacitor-swift-pm"),
+                .product(name: "FirebaseInstallations", package: "firebase-ios-sdk")
             ],
             path: "ios/Sources/FirebaseInstallationsPlugin"),
         .testTarget(
