@@ -1,6 +1,6 @@
 # @luisbytes/capacitor-firebase-installations
 
-Firebase Installations only for Android (For now)
+Firebase Installations only for Android and iOS
 
 ## Install
 
