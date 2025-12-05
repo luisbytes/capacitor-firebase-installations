@@ -6,7 +6,6 @@ Firebase Installations only for Android and iOS
 
 ```bash
 npm install @luisbytes/capacitor-firebase-installations # for capacitor v7
-npm install @luisbytes/capacitor-firebase-installations@6 # for capacitor v6
 npx cap sync
 ```
 
